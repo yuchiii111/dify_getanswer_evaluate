@@ -7,6 +7,7 @@ Compared to dify_search_for_context, dify_search_for_context2 uses api of dify i
 what u have to do is:
 
 1.set the model source，prompts and other RAG related parameters in dify
+
 2.prepares a dateset contains query and ground_truth in CSV format
 
   format:
