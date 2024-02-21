@@ -1,8 +1,8 @@
-# dify_search_for_context2 
+# dify_getanswer_evaluate
 
-dify_search_for_context2 is a script helps you to acquire the RAG answers automatically and by batch, convert data to CSV format and finally evaluate the performance of generator and preprompt of RAG using metrics: f1 and em. (refers to squad)
+dify_getanswer_evaluate is a script helps you to acquire the RAG answers automatically and by batch, convert data to CSV format and finally evaluate the performance of generator and preprompt of RAG using metrics: f1 and em. (refers to squad)
 
-Compared to dify_search_for_context, dify_search_for_context2 uses api of dify instead of extracting its core algorithm, which means that u can set the parameters of models in dify without addtional repetitive work. 
+Compared to dify_search_for_context, dify_getanswer_evaluate uses api of dify instead of extracting its core algorithm, which means that u can set the parameters of models in dify without addtional repetitive work. 
 
 what u have to do is:
 
@@ -17,4 +17,4 @@ what u have to do is:
     ...
 
 
-3.run dify_search_for_context2 to get the result: em and f1
+3.run dify_getanswer_evaluate to get the result: em and f1
