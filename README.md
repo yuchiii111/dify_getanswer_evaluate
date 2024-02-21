@@ -5,6 +5,7 @@ dify_search_for_context2 is a script helps you to acquire the RAG answers automa
 Compared to dify_search_for_context, dify_search_for_context2 uses api of dify instead of extracting its core algorithm, which means that u can set the parameters of models in dify without addtional repetitive work. 
 
 what u have to do is:
+
 1.set the model source，prompts and other RAG related parameters in dify
 2.prepares a dateset contains query and ground_truth in CSV format
 
