@@ -1,4 +1,5 @@
 from getanswer import GETANSWER
+from evaluation import eva_mean
 import pandas as pd
 
 
@@ -16,5 +17,9 @@ for query in querys:
 
 df['answer'] = csv_ans
 df.to_csv(output_file_path, index=False)
+
+f1,em = eva_mean(df)
+print(f1,em)
+
 	
 	
