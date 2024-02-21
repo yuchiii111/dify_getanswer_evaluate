@@ -9,12 +9,12 @@ what u have to do is:
 1.set the model source，prompts and other RAG related parameters in dify
 
 2.prepares a dateset contains query and ground_truth in CSV format
-
-
-  format:
-    query, ground_truth
-    data1, data2
-    ...
-
-
+  
+  
+&ensp;format:
+&ensp;&ensp;query, ground_truth
+&ensp;&ensp;data1, data2
+&ensp;&ensp;...
+  
+  
 3.run dify_getanswer_evaluate to get the result: em and f1
