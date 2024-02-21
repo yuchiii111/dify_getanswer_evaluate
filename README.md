@@ -10,9 +10,11 @@ what u have to do is:
 
 2.prepares a dateset contains query and ground_truth in CSV format
 
+
   format:
     query, ground_truth
     data1, data2
     ...
+
 
 3.run dify_search_for_context2 to get the result: em and f1
