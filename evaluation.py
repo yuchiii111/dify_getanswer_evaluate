@@ -50,7 +50,7 @@ def compute_scores(gold_list, pred):
 def eva_mean(df):
 	f1_sum = 0.0
 	em_sum = 0.0
-	for row in df.iterrows():
+	for index, row in df.iterrows():
     	gt = row['ground_truth']
 		ans = row['answer']
 	    em,f1 = compute_scores(gt, ans)
